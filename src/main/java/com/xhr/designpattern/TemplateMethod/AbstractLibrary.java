@@ -8,6 +8,7 @@ public abstract class AbstractLibrary {
         fun2();
         // 该函数是用户自定义的，具体的实现类需要继承该抽象类并实现该方法
         templateMethod();
+
     }
     public void fun1() {
         System.out.println("fun1 做一些调用该库的准备工作");
